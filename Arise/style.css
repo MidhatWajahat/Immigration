@@ -1,0 +1,65 @@
+:root {
+    --jumbotron-padding-y: 3rem;
+  }
+  
+  .jumbotron {
+    padding-top: var(--jumbotron-padding-y);
+    padding-bottom: var(--jumbotron-padding-y);
+    margin-bottom: 0;
+    background-color: #fff;
+    background-image: url('img/homeworking2.jpg');
+    background-repeat: no-repeat;
+    background-position:  center;
+    background-size: cover;
+    
+
+  }
+
+  @media (min-width: 768px) {
+    .jumbotron {
+      padding-top: calc(var(--jumbotron-padding-y) * 2);
+      padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+    }
+  }
+  
+  .jumbotron p:last-child {
+     margin-bottom: 0;
+    
+  }
+  
+  .jumbotron-heading {
+    font-weight: 500;
+    color: green;
+
+  }
+  
+  .jumbotron .container {
+    max-width: 90 rem;
+    background: rgba(236, 234, 243, 0.7);
+    padding:2 rem;
+    color:white;
+  }
+.container{
+    font: 1em Whitman;
+}
+
+  .jumbotron p {
+      font-size: 22px;
+      color:rgb(19, 19, 20);
+      /*text-shadow: 0 0 10px rgba(0,0,0,0.5);*/
+      
+     }
+  
+ 
+
+  
+  
+   footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color:rgb(161, 199, 69);
+  }
+  
+  footer p {
+    margin-bottom: .25rem;
+  }
